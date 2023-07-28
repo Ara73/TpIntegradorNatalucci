@@ -1,0 +1,109 @@
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #EFF5F5;
+    color: #181823;
+}
+
+.carousel-inner img {
+    width: 50%;
+    max-height: 700px;
+}
+
+.carousel-inner{
+ height: 600px;
+}
+
+h2 {
+    color: #FC7300;
+}
+
+/* Estilos para la navegación */
+.navbar {
+    background-color: #00425A;
+}
+
+.navbar-brand {
+    font-family: 'Belanosima', sans-serif;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    color: #EFF5F5;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #1F8A70;
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #EFF5F5;
+    border-radius: 5px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #181823;
+}
+
+footer h5 {
+    color: #EFF5F5;
+}
+
+/* Estilos para la imagen */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para vistas de tablet y móvil */
+/* Estilos para tablets (768px) y superiores */
+@media (min-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    /* Estilos adicionales para la navegación en tablet */
+    .navbar {
+        padding: 10px 0;
+    }
+}
+
+/* Estilos para móviles (320px) y superiores */
+@media (max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    /* Estilos adicionales para la navegación en móvil */
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .navbar-toggler-icon {
+        background-color: #EFF5F5;
+    }
+
+    .navbar-collapse {
+        background-color: #181823;
+    }
+
+    .navbar-nav .nav-link {
+        color: #EFF5F5;
+    }
+
+    .navbar-nav .nav-link:hover {
+        color: #1F8A70;
+    }
+}
